@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <title>&#x1F4FD; Global Vision</title>
+    <link rel="stylesheet" type="text/css" href="gv.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <div id="aip">
+      <div id="logo">Global<br>Vision<br>
+        <br>&#x1F30F;<br><br>
+        <span class="subtitle">
+          Future<br>of<br>Vision<br>Huawei's<br>Challenge
+        </span>
+      </div>
+      <div id="app-root">
+        <div id="app-main">
+          <div id="video-root">
+            <input id="video-url" type="text" value="http://127.0.0.1:5000/static/video1.mp4">
+            <button id="start">Play</button>
+            <video id="video" class="hidden" autoplay></video>
+            <input id="threshold-slider" class="hidden" type="range" min="0" max="100" value="50">
+            <button id="detect">Start/stop classifying</button>
+          </div>
+        </div>
+      </div>
+      <div id="frames-roll"></div>
+    </div>
+    <div id="threshold-label"></div>
+    <div class="title">Predictions</div>
+    <div id="predictions"></div>
+    <script src="gv.js"></script>
+  </body>
+</html>
