@@ -2,7 +2,9 @@
 
 Detect appearance of a celebrity in a video and generate a CSV file containing two columns: second of the video, `1` if the celebrity appears in that second or `0` otherwise.
 
-**Team #2**: Global Vision
+**Team #2**: Global Vision, 2nd prize winner
+
+<img src="https://domdefelice.net/wp-content/uploads/2018/11/Huawei-Future-of-Vision-Challenge-Winning-Certification.jpg" height="300">
 
 ## Pipeline
 1) Extract frames from video using `ffmpeg`. See `split_frames.sh`. 
