@@ -29,7 +29,7 @@ PREDICTIONS_FILE = "OpenFaceResults_clean.txt"
 # The actual classification is performed when running it as a script: 
 # scroll down to find it.
 #
-clapp = ClarifaiApp(api_key='fb44176933ad41848b81524929196de4')
+clapp = ClarifaiApp(api_key='API_KEY_HERE')
 model = clapp.models.get('celeb-v1.3')
 
 app = Flask(__name__)
